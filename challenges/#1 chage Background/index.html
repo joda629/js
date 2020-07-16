@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="joda">
+    <title>Change Background</title>
+    
+    <style>
+        *
+        {
+            margin          : 0;
+            padding         : 0;
+            box-sizing      : border-box;
+        }
+
+        body 
+        {
+            height          : 100vh;
+            display         : grid;
+            place-items     : center;
+
+            background-color : #333;
+        }
+
+        .btn 
+        {
+            padding         : 1rem;
+            border-radius   : .5rem;
+            cursor          : pointer;
+            outline         : none;
+            background-color : transparent;
+            box-shadow      : 0 0 3px 1px #111;
+            color           : #fff;
+            border          : none;
+
+            text-transform   :uppercase ;
+            font-weight      :700 ;
+            font-family      :Arial;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+
+    <button class="btn" id="btn" >Click me</button> 
+
+    <script src="app.js"></script>    
+</body>
+</html>
