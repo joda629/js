@@ -78,7 +78,7 @@ body::-webkit-scrollbar-thumb
 {
     /* border          : 2px solid; */
     background-color:#222;
-    width           : 30%;
+    width           : 40%;
     text-align      : center ;
     transform       : rotate(-45deg);
     position        : absolute;
@@ -150,5 +150,6 @@ body::-webkit-scrollbar-thumb
     padding         : .5rem 1rem;
     width           : max-content;
     border-radius   : .5rem;
+    text-align      : center;
     margin          : 1rem auto;
 }
