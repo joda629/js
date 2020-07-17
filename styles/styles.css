@@ -6,6 +6,12 @@
     font-family     : 'Frijole', cursive; 
 }
 
+
+body
+{
+    background-color: #222;
+}
+
 .header
 {
     background-image: url("../img/fondo.gif");
@@ -30,15 +36,15 @@
 {
     /* border          : 2px solid; */
     width           : max-content;
-    font-size       : 2.5rem;
-    margin          : .5rem auto;
+    font-size       : 2.3rem;
+    margin          : .2rem auto;
 }
 
 .nav 
 {
     /* border          : 2px solid; */
     display         : flex;
-    background-color: #333;
+    background-color: #000;
     color           : #fc0;
     padding         : 1rem;
     width           : 100%;
@@ -52,7 +58,7 @@
 .txt
 {
     /* border          : 2px solid; */
-    background-color:#000;
+    background-color:#222;
     width           : 30%;
     text-align      : center ;
     transform       : rotate(-45deg);
@@ -68,5 +74,56 @@
 
 .main 
 {
-    padding-bottom: 100vh;
+    border          : 2px solid;
+    width           : 90%;
+    margin          : 3rem auto;
+    margin-bottom: 100vh;
+}
+
+.section 
+{
+    border           : 2px solid;
+    margin           : 1rem 0;
+}
+
+.card
+{
+    /* border          : 2px solid red; */
+    width           : max-content;
+    margin          : 1rem auto ;
+    background-color: rgba(255, 255, 255, .3);
+    padding         : .5rem;
+    border-radius   : .5rem;
+}
+
+.figure 
+{
+    /* border          : 2px solid  */
+}
+
+.img 
+{
+    display         : block;
+    width           : 400px;
+    height          : 250px ;
+    border-radius   : .5rem;
+    max-width       : 100%;
+}
+
+.info
+{
+    text-align      : center;
+    margin-top      : .5rem ;
+}
+
+.link
+{
+    text-decoration : none;
+    display         : block;
+    background-color: #fc0;
+    color           : #000;
+    padding         : .5rem;
+    width           : max-content;
+    border-radius   : .5rem;
+    margin          : 1rem auto;
 }
