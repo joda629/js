@@ -1,0 +1,1 @@
+burguer.addEventListener("click", e => alert(e))

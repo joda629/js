@@ -1,0 +1,244 @@
+*
+{
+    margin          : 0;
+    padding         : 0;
+    box-sizing      : border-box;
+    font-family     : 'Gloria Hallelujah', cursive;
+    color           : #ef7998;
+    scroll-behavior : smooth;
+}
+
+.header 
+{
+    height              : 100vh;
+    background-color    : #fbf1cd;
+    background-blend-mode: multiply;
+    background-image    : url(https://romeojeremiah.github.io/Filter-Project/img/headerBcg.jpeg);
+    background-position : center;
+    background-size     : cover ;
+    background-repeat   : no-repeat;
+    position            : relative;
+}
+
+.burguer 
+{
+    cursor              : pointer;
+}
+
+.nav
+{
+    /* border              : 2px solid red; */
+    padding             : .5rem;
+    background-color    : rgba(255, 255, 255, .5);
+    display             : flex;
+    justify-content     : space-between;
+    align-items         : center;
+}
+
+.figure 
+{
+    /* border              : 2px solid; */
+    width               : max-content;
+    margin-left         : .5rem;
+    cursor              : pointer;
+}
+
+.logo 
+{
+    display             : block;
+    max-width           : 100%;
+}
+
+.menu 
+{
+    width               : 50%;
+    border              : 2px solid;
+    display             : flex;
+    justify-content     : space-between ;
+    align-items         : center;
+    display             : none;
+}
+
+.item 
+{
+    list-style          : none;
+}
+
+.link 
+{
+    border              : 2px solid red;
+    text-decoration     : none;
+    font-size           : 1.5rem;
+}
+
+.txt 
+{
+    position            : absolute;
+    top                 : 50%;
+    left                : 50%;
+    transform           : translate(-50%, -50%) ;
+    text-align          : center;
+    font-size           : 2rem;
+}
+
+.donut 
+{
+    font-size           : 3.5rem;
+    text-transform      : uppercase ;
+}
+
+.main 
+{
+    height              : 100vh;
+    /* border              : 2px solid; */
+}
+
+.about 
+{
+    width               : 60%;
+    margin              : auto;
+    /* border              : 2px solid black; */
+    margin-top          : 5%;
+}
+
+.txtAbout
+{
+    font-size           : 2rem;
+    text-align          : center;
+}
+
+.info 
+{
+    padding             : .5rem;
+}
+
+.two 
+{
+    margin-top          : 1rem;
+    /* border              : 2px solid blue; */
+    display             : flex;
+    justify-content     : center ;
+    
+}
+
+.ph 
+{
+    display             : block;
+    width               : 200px;
+    height              : 200px;
+    outline             : 2px  solid ;
+    outline-offset      : 5px ;
+    transition          : outline-offset .5s linear;
+}
+
+.ph:last-child
+{
+    margin-top          : 50px;
+    margin-left: -20px;
+}
+
+.ph:hover
+{
+    outline-offset: 0;
+}
+
+.store 
+{
+    /* height              : 100vh; */
+    background-color    : #fbf1cd;
+}
+
+.buy 
+{
+    text-align          : center;
+    font-size           : 2rem;
+}
+
+.figureStore
+{
+    /* border              : 2px solid red; */
+    width               : max-content;
+    margin              : auto;
+    width               : 200px;
+    height              : 200px;
+}
+
+.gif 
+{
+    max-width           : 100%;
+}
+
+.options,
+.search 
+{
+    width               : max-content;
+    margin              : auto;
+    margin-top          : 2rem;
+}
+
+.option 
+{
+    text-decoration     : none; 
+    border              : 2px solid black;
+    padding             : .5rem;
+    border-radius       : .5rem;
+    text-transform      : uppercase;
+    font-weight         : 700;
+    transition          : border, color, background-color .5s linear;
+    outline             : none;
+}
+
+.option:hover 
+{
+    background-color    :#ef7998;
+    border-color        : #ef7998;
+    color               : #000;            
+}
+
+.search 
+{
+    /* border              : 2px solid; */
+    margin-bottom       : 2rem;
+}
+
+.input 
+{
+    /* border              : 2px solid black; */
+    border-radius       : .5rem;
+    height              : 40px;
+    display             : flex;
+    justify-content     : flex-start ;
+    align-items         : stretch;
+    overflow            : hidden;
+}
+
+
+.input  img
+{
+    /* border              : 2px solid; */
+    display             : block;
+    width               : 40px;
+    background-color    :#ef7998;
+    cursor              : pointer;
+    padding             : .4rem;
+}
+
+.field 
+{
+    border              : none;
+    outline             : none;
+    background-color    : transparent;
+    border-bottom       : 2px solid  #ef7998; 
+    padding             : .4rem ;
+}
+
+::placeholder
+{
+    color               : #000;
+}
+
+
+
+
+
+
