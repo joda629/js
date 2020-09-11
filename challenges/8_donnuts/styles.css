@@ -254,6 +254,7 @@
 .gallery 
 {
     margin-top           : 2rem;
+    padding-bottom        : 2rem ;
     /* border              : 2px solid; */
     display              : grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
